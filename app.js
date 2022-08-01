@@ -34,13 +34,13 @@ if (greetingMsg == true && (set(gender) !== null)) {
 
 function set(gender) {
     if (gender == "male") {
-        var initialz = "Mr.";
+        var temp = "Mr.";
     } else if (gender == "female") {
-        var initialz = "Ms.";
+        var temp = "Ms.";
     } else {
-        var initialz = null;
+        var temp = null;
     }
-    return initialz;
+    return temp;
     }
    
 
