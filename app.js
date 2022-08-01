@@ -10,7 +10,7 @@ function ageChecker(age){
         }
     }
 }
-
+age = ageChecker(age);
 
 
 
