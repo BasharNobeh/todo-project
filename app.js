@@ -34,13 +34,13 @@ if (greetingMsg == true && (set(gender) !== null)) {
 
 function set(gender) {
     if (gender == "male") {
-        var initialz = "Mr.";
+        var temp = "Mr.";
     } else if (gender == "female") {
-        var initialz = "Ms.";
+        var temp = "Ms.";
     } else {
-        var initialz = null;
+        var temp = null;
     }
-    return initialz;
+    return temp;
     }
    
 
@@ -51,7 +51,7 @@ function set(gender) {
 var secondQuestion = prompt("Do you know what ToDo list is ?Yes/No");
 var thirdQuestion = prompt("Do you already like the website? (answer by Yes or No)");
 
-var answerArr = [firsQuestion, secondQuestion, thirdQuestion];
+var answerArr = [firstQuestion, secondQuestion, thirdQuestion];
 for (var i = 0; i < answerArr.length; i++){
     if (answerArr[i].length == 0){
         answerArr[i] = "invalid";
